@@ -1,0 +1,1 @@
+package com.example.tmpl.exception;public class TmplException extends RuntimeException{    private String exceptionCode;    public TmplException(String exceptionCode) {        super(TmplExceptionMsg.getExceptionMsg(exceptionCode));        this.exceptionCode = exceptionCode;    }}

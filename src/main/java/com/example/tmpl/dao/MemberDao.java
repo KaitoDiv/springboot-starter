@@ -1,0 +1,1 @@
+package com.example.tmpl.dao;import java.util.Map;import org.apache.ibatis.annotations.Mapper;@Mapperpublic interface MemberDao {    void insert(Map<String, Object> params);    Map<String, Object> selById(Map<String, Object> params);    void upById(Map<String, Object> params);    void delById(Map<String, Object> params);}
